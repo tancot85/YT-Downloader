@@ -1,10 +1,10 @@
 import pafy 
 import pprint
 
-URL = input('enter the video url: ')
+#URL = input('enter the video url: ')
 
-video = pafy.new(URL)
-all_streams = video.allstreams
+#video = pafy.new(URL)
+#all_streams = video.allstreams
 # print(video.title)
 # pprint.pprint(video.allstreams)
  
@@ -24,4 +24,4 @@ def download_stream(video):
 
 # download_stream(video)
 
-download_stream(video)
+
